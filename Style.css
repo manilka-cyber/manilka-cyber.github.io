@@ -324,7 +324,70 @@ body {
     padding: 2em;
     background-color: rgba(0, 0, 0, 0.5); /* Optional overlay for readability */
   }
+html {
+    scroll-behavior: smooth;
+}
 
 
- 
- 
+#about { background-color:  #e2c8e3; }
+#portfolio { background-color: #e2c8e3; }
+#contact { background-color: #e2c8e3; }
+
+
+/* Button Styles */
+button, 
+#contact-form button {
+    /* Primary button color settings */
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Button Hover and Active State */
+button:hover, 
+#contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active, 
+#contact-form button:active {
+    background-color: #003f7f; /* Even darker blue on active state */
+}
+
+/* Icon Styles */
+i {
+    color: #007bff; /* Set all icons to blue */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Icon Hover and Active State */
+i:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+i:active {
+    color: #003f7f; /* Even darker blue on active state */
+}
+
+/* Social Media Icon Styles */
+.social-icons a {
+    color: #007bff; /* Blue color for all social icons */
+    font-size: 1.5rem; /* Adjust icon size as needed */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Social Media Icon Hover */
+.social-icons a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Comments explaining styles:
+   - Buttons are styled with a blue color, with a darker shade on hover and active states.
+   - Icons are also styled in blue and change color on hover and active for a consistent look.
+   - Social media icons in the footer have the same blue color with a hover effect for user interactivity.
+*/
+

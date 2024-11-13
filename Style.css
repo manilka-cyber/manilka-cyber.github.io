@@ -176,7 +176,7 @@ nav ul li a {
 
 .service-item h3 {
     font-size: 1.8rem;
-    color: #333;
+    color: #007bff;
 }
 
 .service-item p {
@@ -334,6 +334,20 @@ html {
 #contact { background-color: #e2c8e3; }
 
 
+/* Services and Portfolio Lists Layout */
+.services-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between items */
+    justify-content: center;
+}
+
+.service-item {
+    flex: 1 1 30%; /* Flexible width (approx. 30%) */
+    max-width: 300px; /* Maximum width for smaller screens */
+}
+
+
 /* Button Styles */
 button, 
 #contact-form button {
@@ -390,4 +404,5 @@ i:active {
    - Icons are also styled in blue and change color on hover and active for a consistent look.
    - Social media icons in the footer have the same blue color with a hover effect for user interactivity.
 */
+
 

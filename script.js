@@ -75,10 +75,3 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.toggle('show-details');
         });
     });
-
-
-
-
-
-
-

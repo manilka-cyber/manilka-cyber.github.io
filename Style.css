@@ -176,8 +176,8 @@ nav {
 }
 
 .service-item:hover {
-    border-color: #a8cdf5;
-    background-color:#a8cdf5 ;
+    border-color: #8ff8fd;
+    background-color:#8ff8fd ;
     color: white;
 }
 
@@ -397,11 +397,11 @@ footer p {
 
 }
 
-#home {background-color:#d1e2f5; }
-#about {background-color:#d1e2f5; }
-#services{background-color:#d1e2f5; }
-#portfolio{background-color:#d1e2f5; }
-#contact{background-color:#d1e2f5; }
+#home {background-color:#14d4ea; }
+#about {background-color:#14d4ea; }
+#services{background-color:#14d4ea; }
+#portfolio{background-color:#14d4ea; }
+#contact{background-color:#14d4ea; }
 
 /* Consistent Section Style */
 #home, #about, #services, #portfolio, #contact {

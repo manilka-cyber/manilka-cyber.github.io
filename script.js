@@ -59,5 +59,26 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+    // Handle the touch/click event for revealing details
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(item => {
+        const button = item.querySelector('.search-btn');
+        const img = item.querySelector('img');
+
+        // Click on image or button to toggle details visibility
+        button.addEventListener('click', () => {
+            item.classList.toggle('show-details');
+        });
+
+        img.addEventListener('click', () => {
+            item.classList.toggle('show-details');
+        });
+    });
+
+
+
+
+
 
 

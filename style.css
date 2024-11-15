@@ -58,8 +58,75 @@ nav {
     z-index: 10; /* Higher than other sections to ensure it's clickable */
 }
 
+/* Home section styling */
+#home {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: top center;
+    padding: 50px;
+    background: url('Images/pexels-fahri-tokcan-522576348-28883898 (2) - Copy.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
 
+/* Container for text content */
+.home-content {
+    color: white;
+    text-align: left;
+    z-index: 2; /* Ensures text is above the background */
+}
 
+/* Profile picture styling */
+.profile-picture {
+    position: relative;
+    z-index: 2; /* Ensures the image is above the background */
+    background-position: top center;
+}
+
+.profile-picture img {
+    width: 250px; /* Increased size of the profile picture */
+    height: 250px; /* Makes the image square */
+    object-fit: cover; /* Ensures the image is cropped to fill the square */
+    border-radius: 50%; /* Makes the profile picture circular */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow to the image */
+    background-position: top center;
+}
+
+/* Optional: Add responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    #home {
+        flex-direction: column; /* Stacks the content and image vertically */
+        text-align: top center; /* Center-aligns text on small screens */
+    }
+
+    .profile-picture img {
+        width: 200px; /* Adjust image size for smaller screens */
+        height: 200px;
+    }
+}
+
+/* Text Styles in Home Section */
+.home-content h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px; /* Improved readability */
+    
+}
+
+.home-content h3 span {
+    color: #007bff; /* Accent color */
+    
+}
+
+.home-content p {
+    font-size: 1.1rem;
+    color: #007bff;
+    line-height: 1.6; /* Better readability for paragraphs */
+}
 
 /* Text Styles in Home Section */
 .home-content h2 {
@@ -81,17 +148,6 @@ nav {
     line-height: 1.6; /* Better readability for paragraphs */
 }
 
-/* General section styling for the home page */
-#home {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background: url('Images/pexels-ketut-subiyanto-4965010.jpg') no-repeat center center/cover; /* Full-screen background image */
-    color: white;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
 
 /* About Section */
 #about {
@@ -408,7 +464,7 @@ footer p {
 /* Consistent Section Style */
 #home, #about, #services, #portfolio, #contact {
     padding: 80px 40px;
-    background-color:white ; /* Uniform background color */
+    background-color: rgb(23, 227, 220); /* Uniform background color */
    ;
     
 }

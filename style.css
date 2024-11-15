@@ -293,10 +293,13 @@ nav {
 
 .service-item h3 {
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .service-item p {
     color: black;
+    font-size: 1.1rem;
+    font-weight:bold;
 }
 /* Styling the Icons */
 .service-icon {
@@ -382,13 +385,16 @@ nav {
 }
 
 .details-container h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 10px 0;
+    color: blue;
 }
 
 .details-container p {
     font-size: 1.2rem;
-    color: #ddd;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .details-container .icon-link {

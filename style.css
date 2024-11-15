@@ -277,7 +277,30 @@ nav {
 .service-item p {
     color: black;
 }
+/* Styling the Icons */
+.service-icon {
+    font-size: 10px; /* Large icon size */
+    color: #007bff; /* Primary color */
+    margin-bottom: 15px; /* Space below the icon */
+    transition: color 0.3s ease-in-out;
+}
 
+/* Hover effect on the icons */
+.service-icon:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+.service-icon {
+    font-size: 48px; /* Adjust icon size */
+    color: #007bff;  /* Set icon color */
+    transition: color 0.3s ease-in-out;
+}
+
+.service-icon:hover {
+    color: #0056b3; /* Hover effect */
+}
+
+
+  
 /* Portfolio Section */
 #portfolio {
     padding: 80px 40px;
@@ -338,12 +361,12 @@ nav {
 }
 
 .details-container h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 10px 0;
 }
 
 .details-container p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #ddd;
 }
 
@@ -352,6 +375,21 @@ nav {
     color: #007bff;
     margin-top: 10px;
 }
+
+/* General styles for portfolio icons */
+.portfolio-icon {
+    font-size: 36px; /* Adjust icon size */
+    color: #007bff; /* Icon color */
+    margin-bottom: 10px; /* Space between icon and text */
+    display: block; /* Ensures the icon is on its own line */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for icons */
+.portfolio-icon:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
 /* Contact Section */
 #contact {
     padding: 80px 20px;

@@ -146,6 +146,13 @@ nav {
     font-size: 1.1rem;
     color: #007bff;
     line-height: 1.6; /* Better readability for paragraphs */
+    font-size: 2rem;
+    width: fit-content;
+}
+
+#home .home-content h3 {
+    font-size: 2rem;
+    width: fit-content;
 }
 
 
@@ -181,7 +188,7 @@ nav {
 }
 
 .about-item h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #007bff;
 }
 
@@ -191,9 +198,15 @@ nav {
 }
 
 .about-item ul li {
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 1.8rem;
+    color: black;
+    width: fit-content;
 }
+.about-content p {
+    font-size: 1.8rem;
+    width: fit-content;
+}
+
 
 .about-image {
     width: 30%;
@@ -350,6 +363,27 @@ nav {
     color: #555;
     margin-top: 0;
 }
+
+.contact-form label {
+    font-size: 1.5em;
+    width: fit-content;
+    display: inline-block; /* Ensures the width adapts to the text content */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.contact-form label {
+    font-size: 2rem;
+    width: fit-content;
+}
+
+.contact-item span {
+    font-size: 1.5rem;
+    width: fit-content;
+}
+
 
 /* Centered Contact Form */
 #contact-form {
@@ -567,4 +601,43 @@ iframe {
     background-color: #0056b3; /* Darker shade on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+
+
+/* Form Fields */
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus State Styling */
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #007bff; /* Highlight the border with the accent color */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0px 2px 8px rgba(0, 123, 255, 0.3); /* Soft blue glow to enhance focus */
+}
+
+/* Add placeholder focus effect */
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #888; /* Lighter placeholder color */
+    opacity: 1; /* Ensure the opacity remains when focused */
+}
+
+#contact-form input:focus::placeholder,
+#contact-form textarea:focus::placeholder {
+    color: #007bff; /* Change placeholder color to accent color on focus */
+    opacity: 0.7;
+}
+
+
+
+
 

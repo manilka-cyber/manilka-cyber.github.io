@@ -390,7 +390,7 @@ nav {
     margin-top: 10px;
 }
 
-/* General styles for portfolio icons */
+/* General styles for portfolio icons*/
 .portfolio-icon {
     font-size: 36px; /* Adjust icon size */
     color: #007bff; /* Icon color */
@@ -404,9 +404,7 @@ nav {
     color: #0056b3; /* Change color on hover */
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 /* Hover effect */
 .portfolio-item:hover {

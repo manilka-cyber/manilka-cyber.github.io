@@ -75,3 +75,19 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.toggle('show-details');
         });
     });
+
+    const text = "Welcome to My Website"; // Text to display
+        const typingElement = document.getElementById("typing");
+        let index = 0;
+
+        function typeLetter() {
+            if (index < text.length) {
+                typingElement.textContent += text.charAt(index); // Add next letter
+                index++;
+                setTimeout(typeLetter, 100); // Adjust typing speed (in ms)
+            }
+        }
+
+        // Start typing effect
+        typeLetter();
+        

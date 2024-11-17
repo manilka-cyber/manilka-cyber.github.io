@@ -58,6 +58,17 @@ nav {
     z-index: 10; /* Higher than other sections to ensure it's clickable */
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+a:hover {
+    color: blue; /* Changes color */
+    font-size: 20px; /* Increases size */
+}
+
 /* Home section styling */
 #home {
     position: relative;
@@ -93,6 +104,11 @@ nav {
     background-position: top center;
 }
 
+.profile-picture img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
 /* Optional: Add responsive design for smaller screens */
 @media screen and (max-width: 768px) {
     #home {
@@ -106,7 +122,10 @@ nav {
     }
 }
 
-
+.home-content:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    text-shadow: 0 6px 15px lightskyblue; /* Enhanced shadow on hover */
+}
 
 .home-content p {
     font-size: 1.1rem;
@@ -162,6 +181,17 @@ nav {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
+}
+
+.about-text h3 {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+.about-text h3:hover {
+    color: darkblue; /* Changes color */
+    font-size: 40px; /* Increases size */
 }
 
 .about-details {
@@ -310,7 +340,10 @@ nav {
     color: #0056b3; /* Hover effect */
 }
 
-
+.service-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
   
 /* Portfolio Section */
 #portfolio {
@@ -410,7 +443,7 @@ nav {
 .portfolio-item:hover {
     background-color: rgba(0, 86, 179, 0.7); /* More transparent blue */
     transform: translateY(-5px); /* Move upward */
-    opacity: 0.8; /* Slightly reduce opacity */
+    opacity: 1; /* Slightly reduce opacity */
     box-shadow: 0 0 15px 5px rgba(0, 86, 179, 0.8), 0 0 25px 10px rgba(0, 86, 179, 0.6); /* Ray/Glow effect */
 }  
 

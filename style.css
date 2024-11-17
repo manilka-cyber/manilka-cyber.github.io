@@ -245,7 +245,7 @@ nav {
 /* Services Section */
 #services {
     padding: 80px 40px;
-    background-color: #f4f4f4;
+    background-color: black;
 }
 
 .services-list {
@@ -258,7 +258,7 @@ nav {
 .service-item h2 {
     font-size: 10rem; /* Adjust this value to your desired font size */
 }
-
+  
 .service-item {
     background: #66a3ff ;
     padding: 2rem;
@@ -269,12 +269,13 @@ nav {
     cursor: pointer;
     transition: 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:black;
 }
 
 .service-item:hover {
-    border-color: #00BFFF;
-    background-color:#00BFFF;
-    color: black;
+    border-color: white;
+    background-color: darkblue;
+    color: white;
 }
 
 .service-item h3 {
@@ -283,7 +284,7 @@ nav {
 }
 
 .service-item p {
-    color: black;
+    color: white;
     font-size: 1.1rem;
     font-weight:bold;
 }
@@ -353,7 +354,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background:#66a3ff ;
+    background:darkblue ;
     color: white;
     display: flex;
     flex-direction: column;
@@ -373,7 +374,7 @@ nav {
 .details-container h3 {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: blue;
+    color: lightskyblue;
 }
 
 .details-container p {
@@ -802,7 +803,7 @@ iframe {
     opacity: 0.7;
 }
 
-
+/*#00BFFF
 
 
 

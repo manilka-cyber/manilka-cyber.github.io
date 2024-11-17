@@ -124,7 +124,7 @@ a:hover {
 
 .home-content:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
-    text-shadow: 0 6px 15px lightskyblue; /* Enhanced shadow on hover */
+    text-shadow: 0 6px 15px lightseagreen; /* Enhanced shadow on hover */
 }
 
 .home-content p {

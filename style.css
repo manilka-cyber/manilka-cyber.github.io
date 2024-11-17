@@ -68,7 +68,6 @@ nav {
     background: url('Images/WhatsApp Image 2024-11-16 at 12.10.37_551ab944.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
-    
 }
 
 /* Container for text content */
@@ -107,20 +106,7 @@ nav {
     }
 }
 
-/* Text Styles in Home Section */
-.home-content h2 {
-    font-size: 2.5rem;
-    color: white;
-    margin-bottom: 15px;
-    font-weight: 700;
-    letter-spacing: 1px; /* Improved readability */
-    
-}
 
-.home-content h3 span {
-    color: #007bff; /* Accent color */
-    
-}
 
 .home-content p {
     font-size: 1.1rem;
@@ -130,7 +116,7 @@ nav {
 
 /* Text Styles in Home Section */
 .home-content h2 {
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: white;
     margin-bottom: 15px;
     font-weight: 700;
@@ -145,12 +131,12 @@ nav {
 .home-content p {
     color: #007bff;
     line-height: 1.6; /* Better readability for paragraphs */
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: fit-content;
 }
 
 #home .home-content h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: fit-content;
 }
 

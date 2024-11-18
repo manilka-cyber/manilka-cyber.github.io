@@ -305,7 +305,7 @@ a:hover {
 .service-item:hover {
     border-color: white;
     background-color: darkblue;
-    color: lightgreen;
+    color: lightskyblue;
 }
 
 .service-item h3 {

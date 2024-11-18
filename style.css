@@ -21,7 +21,6 @@ header {
     color: #ffffff;
     padding: 40px 0;
     text-align: center;
-    z-index: 1000; /* Ensure it stays above the background */
 }
 
 header h1 {
@@ -77,11 +76,14 @@ a:hover {
     justify-content: space-between;
     align-items: top center;
     padding: 50px;
-    background: url('Images/Manilka_Sooriyabandara_A_confident_businesswoman_with_long,_dark_hair,_we_a7291214-599d-4505-8124-c49ba0948c4b.png') no-repeat center center;
+    background: url('Images/WhatsApp_Image_2024-11-16_at_12.10.37_551ab944 (1) (1)_LE_magic_x4_creativity_99_resemblance_25.jpg') no-repeat center center;
     background-size: cover;
-    height: 180lvh; /* Subtract header height from viewport height */
+    height: 100vh; /* Subtract header height from viewport height */
+    /*background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
+    background-position: center ;
+
     
-}
+ }
 
 
 

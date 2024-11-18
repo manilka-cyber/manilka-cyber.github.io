@@ -21,6 +21,7 @@ header {
     color: #ffffff;
     padding: 40px 0;
     text-align: center;
+    z-index: 1000; /* Ensure it stays above the background */
 }
 
 header h1 {
@@ -76,10 +77,13 @@ a:hover {
     justify-content: space-between;
     align-items: top center;
     padding: 50px;
-    background: url('Images/WhatsApp_Image_2024-11-16_at_12.10.37_551ab944 (1) (1)_LE_magic_x4_creativity_99_resemblance_25.jpg') no-repeat center center;
+    background: url('Images/Manilka_Sooriyabandara_A_confident_businesswoman_with_long,_dark_hair,_we_a7291214-599d-4505-8124-c49ba0948c4b.png') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 180lvh; /* Subtract header height from viewport height */
+    
 }
+
+
 
 /* Container for text content */
 .home-content {
@@ -101,7 +105,7 @@ a:hover {
     object-fit: cover; /* Ensures the image is cropped to fill the square */
     border-radius: 50%; /* Makes the profile picture circular */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow to the image */
-    background-position: top center;
+    background-position: top center ;
 }
 
 .profile-picture img:hover {

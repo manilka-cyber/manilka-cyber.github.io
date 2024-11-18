@@ -79,7 +79,7 @@ a:hover {
     padding: 50px;
     background: url('Images/Manilka_Sooriyabandara_A_confident_businesswoman_with_long,_dark_hair,_we_a7291214-599d-4505-8124-c49ba0948c4b.png') no-repeat center center;
     background-size: cover;
-    height: 100lvh; /* Subtract header height from viewport height */
+    height: 120lvh; /* Subtract header height from viewport height */
     
 }
 

@@ -98,7 +98,7 @@ a:hover {
 .profile-picture {
     position: relative;
     z-index: 2; /* Ensures the image is above the background */
-    background-position: top center;
+    background-position: top;
 }
 
 .profile-picture img {
@@ -124,7 +124,7 @@ a:hover {
     .profile-picture img {
         width: 200px; /* Adjust image size for smaller screens */
         height: 200px;
-        position:fixed
+        position:fixed;
     }
 }
 
